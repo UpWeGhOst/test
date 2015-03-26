@@ -6,6 +6,6 @@
         "phing/phing": "2.*"
     },
 	"autoload": {
-		"psr-0": { "": "core/" }
+		"psr-0": { "": "src/" }
 	}
 }
