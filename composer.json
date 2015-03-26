@@ -1,0 +1,11 @@
+{
+    "require": {
+        "silex/silex": "~1.2"
+    },
+    "require-dev": {
+        "phing/phing": "2.*"
+    },
+	"autoload": {
+		"psr-0": { "": "core/" }
+	}
+}
