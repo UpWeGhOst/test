@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<project name="test" basedir="." default="build" >
+
+    <property file="properties.ini"/>
+    <taskdef name="AddToFile" classname="src.phing.Task.addToDoTask" />
+
+    <target name="addTask">
+		<AddToFile task = "${task}" />
+    </target>
+
+</project>
