@@ -8,7 +8,7 @@ class ToDoMgr {
 		$this->fileName = $fileName;
 	}
 	
-	function toString() {
+	function __toString() {
 		$result = '';
 
 		if (file_exists($this->fileName)) {

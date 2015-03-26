@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<project name="test" basedir="." default="build" >
+<project name="test" basedir="." default="addTask">
 
     <property file="properties.ini"/>
     <taskdef name="AddToFile" classname="src.phing.Task.addToDoTask" />

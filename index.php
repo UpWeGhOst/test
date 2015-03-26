@@ -8,8 +8,7 @@ $app->get('/', function () {
 });
 
 $app->get('/todo/', function () {
-	$mgr = new ToDoMgr('todo.xml');
-	$result = $mgr->toString();
+	$result = new ToDoMgr('todo.xml');
 	return $result;
 });
 
